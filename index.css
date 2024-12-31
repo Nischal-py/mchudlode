@@ -1,0 +1,70 @@
+button:hover {
+  color: burlywood;
+  background-color: greenyellow;
+}
+
+input[type="text"]:focus {
+  background-color: rgb(19, 127, 243);
+}
+
+/* input[type="email"]:focus {
+  background-color: rgb(19, 127, 243);
+} */
+
+body {
+  background-color: bisque;
+}
+
+h1 {
+  color: darksalmon;
+  font-family: "press start 2p", "consolas", sans-serif;
+  text-decoration: dotted underline;
+  line-height: 60px;
+  text-shadow: 8px 8px 2px gray;
+}
+
+p {
+  color: rgb(111, 31, 31);
+  font-family: consolas;
+  font-style: italic;
+  font-weight: bold;
+  /* font-decoration: wavy underline; */
+  border-style: solid;
+  border-width: 5px;
+  border-color: gold;
+  border-bottom: 10px;
+  padding: 5px;
+  text-indent: 10px;
+}
+
+h1 {
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: double;
+  border-left-width: 10px;
+  border-left-color: silver;
+
+}
+
+
+body {
+  /* background-image: url('code.jpg');
+  /* background: linear-gradient(skyblue, lightgreen);
+  background-repeat: no-repeat; */
+  background-attachment: fixed;
+  */
+}
+
+h1 {
+  background: linear-gradient(skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+p {
+  background: linear-gradient(skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
